@@ -1,0 +1,353 @@
+body {
+    font-family: Roboto, Arial;
+    background-color: #E5E4E2	;
+    margin: 0;
+    padding: 0;
+}
+
+.thanh-trang-thai {
+    color: #A9A9A9;
+    background-color: black;
+    height: 50px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.thanh-trang-thai div{
+    font-size: 15px;
+}
+
+.thanh-trang-thai #eProcurement {
+    margin-left: 10px;
+    margin-right: 0;
+    color: white;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.thanh-trang-thai #split-icon {
+    margin-left: 10px;
+}
+
+.thanh-trang-thai #thong-bao {
+    margin-left: auto;
+    width: 150px;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.thanh-trang-thai #nav {
+    display: flex;
+    justify-content: space-between; 
+    margin-left: 25px;
+    align-items: center;
+    height: 48px;
+}
+
+.thanh-trang-thai #nav:hover {
+    cursor: pointer;
+    border-bottom: 3px solid #0080FF;
+}
+
+.tong-quan-container {
+    display: flex;
+}
+
+.tong-quan {
+    font-size: 15px;
+    color: #0080FF;
+    text-decoration: underline;
+
+    padding-left: 10px;
+    padding-top: 10px;
+    margin-left: 20px;
+}
+
+.tong-quan-gach {
+    font-size: 15px;
+    color: #0080FF;
+
+    padding: 10px;
+}
+
+.noi-dung {
+    font-size: 30px;
+
+    padding: 10px;
+    padding-top: 0;
+    margin-left: 20px;
+}
+
+.container {
+    height: 250px;
+    margin-left: 15px;
+    margin-right: 15px;
+
+    display: flex;
+}
+
+.container #hang-hoa-can-mua {
+    background-color: white;
+    width: 940px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 214px;
+}
+
+.container #to-do {
+    width: 12px;
+    height: 14px;
+    margin-right: 10px;
+}
+
+.container #de-nghi-mua {
+    background-color: white;
+    margin-left: auto;
+    width: 520px;
+    height: 214px;
+    padding: 10px;
+}
+
+.container #tua-de {
+    font-size: 19px;
+    margin-bottom: 3px;
+    margin-left: 10px;
+}
+
+.container #tua-de-des {
+    font-size: 14px;
+    color:#A9A9A9;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.container #hang-hoa-can-mua input {
+    width: 920px;
+    padding: 10px;
+    border: none;
+    background-color: #E5E4E2;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.container #de-nghi-mua input {
+    width: 510px;
+    padding: 10px;
+    border: none;
+    background-color: #E5E4E2;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.container #thong-tin {
+    display: flex;
+}
+
+.container #loai-hang-hoa {
+    width: 580px;
+}
+
+.container #hang-hoa {
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 12px;
+    margin-bottom: 6px;
+    margin-top: 6px;
+    padding-left: 10px;
+    padding-bottom: 2px;
+
+    border-bottom: 1px solid #E5E4E2;
+}
+
+.container #doc-add {
+    margin-left: auto;
+    width: 12px;
+    height: 14px;
+}
+
+.container #loai {
+    font-weight: 500;
+}
+
+.container #vat-tu-hang-hoa {
+    margin-left: 10px;
+}
+
+.container #so-luong {
+    width: 500px;
+}
+
+.container #de-nghi-mua #loai-hang-hoa {
+    width: 250px;
+}
+
+.container #num {
+    color: #0080FF;
+}
+
+.plan {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.plan #tua-de-container {
+    background-color: white;
+    height: auto;
+    padding-bottom: 10px;
+
+
+    display: flex;
+    flex-direction: column;
+}
+
+.plan #tua-de {
+    font-size: 19px;
+    margin-bottom: 3px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.plan #tua-de-des {
+    font-size: 14px;
+    color:#A9A9A9;
+    margin-bottom: 10px;
+    padding-left: 10px;
+}
+
+.plan #view {
+    color: #0080FF;
+    font-size: 14px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    align-items: center;
+    padding-left: 10px;
+}
+
+.plan #view-sym {
+    width: 15px;
+    margin-right: 5px;
+}
+
+.plan #view-des {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+
+    align-items: center;
+}
+
+.plan #right-setting {
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 225px;
+}
+
+.plan #tao-pam {
+    background-color: #0080FF;
+    color: white;
+    font-size: 14px;
+    padding: 12px;
+}
+
+.plan #add-sym {
+    width: 12px;
+    height: 14px;
+    margin-left: 15px;
+}
+
+.plan #thong-tin-pam {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 140px;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.plan #thong-tin-pam-chi-tiet {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 190px;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.plan #num {
+    color: #0080FF;
+    font-size: 12px;
+    margin-top: 10px;
+    padding-left: 10px;
+}
+
+.plan #thong-tin-plan {
+    display: flex;
+    height: 160px;
+}
+
+.plan #ten-pam {
+    width: max-content;
+}
+
+.plan #ten-pam #num {
+    color: black;
+    font-weight: normal;
+}
+
+.plan #so-pam {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #E5E4E2;
+    width: 100%;
+}
+
+.plan #so-pam-title #loai-pam {
+    width: 302px;
+    background-color: #D3D3D3;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 10px;
+    font-weight: 500;
+}
+
+.plan #progress-container {
+    padding-right: 10px;
+}
+
+.plan #progress-container #num{
+    margin: 0;
+    padding: 0;
+    padding-left: 5px;
+    margin-right: auto;
+}
+
+.plan #progress-container {
+    width: 295px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 10px;
+    padding-left: 10px;
+}
+
+.plan #progress-bar {
+    width: 12px;
+    height: 14px; 
+}
